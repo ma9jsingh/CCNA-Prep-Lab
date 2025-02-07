@@ -1,7 +1,13 @@
 # Branch Network Lab in Cisco Packet Tracer
 
 This folder (`lab_01`) contains a simple Packet Tracer project demonstrating a basic network design that connects two branch offices (New York and Tokyo) with firewalls, routers, and an attacker node on the public Internet. **No configuration has been applied yet**—all devices are simply cabled together.
+## Network Diagram
 
+![Network Diagram](Lab_1_NetworkDiagram.png)
+
+This diagram illustrates how the New York branch, Tokyo branch, and the attacker node on the Internet are interconnected through routers and firewalls.
+
+---
 ## Overview
 
 - **New York Branch**: Two PCs connected to a switch (`SW1`), which then connects to a router (`R1`) and a firewall (`FW1`).
