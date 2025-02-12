@@ -52,13 +52,24 @@ This lab introduces foundational CLI (Command Line Interface) tasks on Cisco rou
    - Enable Password → `enable password CCNA`  
    - Service Password-Encryption → `service password-encryption`  
    - Enable Secret → `enable secret Cisco`
+  
+     ![3.png](screenshots/3.png)
 
 5. **Verify Configuration**  
    - Use `do show running-config` (or `do sh run`) to confirm the configurations and check password encryption status.
+  
+     ![4.png](screenshots/4.png)
 
 6. **Save the Configuration**  
    - Preserve the running config to the startup config with `copy running-config startup-config`.
-
+  
+     ![5.png](screenshots/5.png)
+     
+7. **Verify Saved Configuration**
+   - Check if the configuration has been saved by displaying the startup configuration using `show startup-config`.
+  
+     ![6.png](screenshots/6.png)
+   
 ---
 
 **Happy Configuring!**
