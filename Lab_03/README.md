@@ -48,7 +48,7 @@ This lab introduces foundational CLI (Command Line Interface) tasks on Cisco rou
      ![2.png](screenshots/2.png)
 
 4. **Apply Each Task**  
-   - Hostname → `hostname R1`, `hostname SW1`, etc.  
+   - Hostname → `hostname R1` 
    - Enable Password → `enable password CCNA`  
    - Service Password-Encryption → `service password-encryption`  
    - Enable Secret → `enable secret Cisco`
