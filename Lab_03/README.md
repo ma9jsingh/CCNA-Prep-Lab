@@ -40,8 +40,12 @@ This lab introduces foundational CLI (Command Line Interface) tasks on Cisco rou
 2. **Enter Privileged EXEC Mode**  
    - Use the `enable` (or `en`) command to reach privileged EXEC mode.
 
+     ![1.png](screenshots/1.png)
+
 3. **Enter Global Configuration Mode**  
    - Use `configure terminal` (or `conf t`) to begin making global changes.
+  
+     ![2.png](screenshots/2.png)
 
 4. **Apply Each Task**  
    - Hostname → `hostname R1`, `hostname SW1`, etc.  
@@ -50,7 +54,7 @@ This lab introduces foundational CLI (Command Line Interface) tasks on Cisco rou
    - Enable Secret → `enable secret Cisco`
 
 5. **Verify Configuration**  
-   - Use `show running-config` (or `sh run`) to confirm the configurations and check password encryption status.
+   - Use `do show running-config` (or `do sh run`) to confirm the configurations and check password encryption status.
 
 6. **Save the Configuration**  
    - Preserve the running config to the startup config with `copy running-config startup-config`.
