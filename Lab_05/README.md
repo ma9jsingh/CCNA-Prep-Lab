@@ -35,9 +35,13 @@ The network consists of:
 2. Use `configure terminal` command to enter global configuration mode.
 3. Use `hostname R1` command to set the hostname.
 
+   ![1.png](Screenshots/1.png)
+
 ### Step 2: Verify R1's Interfaces
 
 1. Use `show ip interface brief` command to view available interfaces and their statuses.
+
+   ![2.png](Screenshots/2.png)
 
 ### Step 3: Configure IP Addresses and Enable Interfaces on R1
 
@@ -56,21 +60,33 @@ The network consists of:
 11. Use `description ## To SW3 ##` command to set a description.
 12. Use `no shutdown` command to enable the interface.
 
+    ![3.png](Screenshots/3.png)
+
 ### Step 4: Verify Interface Configuration
 
 1. Use `show ip interface brief` command to check the interface status.
 
+   ![4.png](Screenshots/4.png)
+
 ### Step 5: Save Configuration
 
 1. Use `write memory` command to save the running configuration.
+
+   ![5.png](Screenshots/5.png)
 
 ---
 
 ## Configuring IP Addresses on PCs
 
 1. Use `IP address 15.0.0.1 255.0.0.0` command to configure PC1's IP address.
-2. Use `IP address 182.98.0.1 255.255.0.0` command to configure PC2's IP address.
-3. Use `IP address 201.191.20.1 255.255.255.0` command to configure PC3's IP address.
+
+   ![6.png](Screenshots/6.png)
+3. Use `IP address 182.98.0.1 255.255.0.0` command to configure PC2's IP address.
+
+   ![7.png](Screenshots/7.png)
+5. Use `IP address 201.191.20.1 255.255.255.0` command to configure PC3's IP address.
+
+   ![8.png](Screenshots/8.png)
 
 ---
 
@@ -80,6 +96,8 @@ The network consists of:
 
 1. Use `ping 182.98.0.1` command on PC1 to test connectivity to PC2.
 2. Use `ping 201.191.20.1` command on PC1 to test connectivity to PC3.
+
+   ![9.png](Screenshots/9.png)
 
 ---
 
